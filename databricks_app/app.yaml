@@ -1,0 +1,6 @@
+command: ["streamlit", "run", "app.py"]
+
+env:
+  # Bind a SQL warehouse to the app as a resource with key "sql-warehouse"
+  - name: DATABRICKS_WAREHOUSE_ID
+    valueFrom: sql-warehouse
