@@ -1,0 +1,3 @@
+[submodule "Synthetic-Test-Data-Creator"]
+	path = Synthetic-Test-Data-Creator
+	url = https://github.com/zachana-1/Synthetic-Test-Data-Creator.git
